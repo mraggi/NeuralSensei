@@ -35,9 +35,16 @@ Luego, puedes por ejemplo poner al día los paquetes así:
 conda update --all
 ```
 
-Para abrir el jupyter:
+Para abrir el jupyter, ve a la carpeta donde quieras trabajar y escribe:
 ```bash
 jupyter lab
 ```
 
-Ahí deberías poder trabajar agusto.
+Ahí deberías poder trabajar agusto. Para probar que todo funcione, crea un nuevo notebook y escribe:
+```bash
+import fastai
+import torch
+
+torch.cuda.is_available()
+```
+Debería imprimir `True`. Si no algo no funciona, contáctame
