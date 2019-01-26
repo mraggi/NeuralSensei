@@ -47,4 +47,5 @@ import torch
 
 torch.cuda.is_available()
 ```
-Debería imprimir `True`. Si no algo no funciona, contáctame
+
+Debería imprimir `True`. Si no, entonces algo no funciona. Contáctame!
