@@ -37,7 +37,7 @@ conda update --all
 
 Para abrir el jupyter, ve a la carpeta donde quieras trabajar y escribe:
 ```bash
-jupyter lab
+jupyter notebook
 ```
 
 Ahí deberías poder trabajar agusto. Para probar que todo funcione, crea un nuevo notebook y escribe:
